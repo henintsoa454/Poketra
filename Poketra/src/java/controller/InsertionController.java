@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import model.Look;
 import model.Matiere;
+import model.Taille;
 
 /**
  *
@@ -26,9 +27,9 @@ public class InsertionController extends HttpServlet {
         if(request.getParameter("objet")!=null){
             String objet = request.getParameter("objet");
             if(objet.contains("matiere")){
-                if(request.getParameter("nom")!=null){
+                if(request.getParameter("nom")!=null && request.getParameter("prixUnitaire")!=null){
                     try{
-                        Matiere.inserer(request.getParameter("nom"));
+                        Matiere.inserer(request.getParameter("nom"),Double.parseDouble(request.getParameter("prixUnitaire")));
                     }catch(Exception e){
                         e.printStackTrace();
                     }
@@ -36,6 +37,12 @@ public class InsertionController extends HttpServlet {
             }else if(objet.contains("look")){
                 try{
                         Look.inserer(request.getParameter("nom"));
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
+            }else if(objet.contains("taille")){
+                try{
+                        Taille.inserer(request.getParameter("nom"));
                     }catch(Exception e){
                         e.printStackTrace();
                     }

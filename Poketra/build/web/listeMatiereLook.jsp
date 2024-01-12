@@ -23,6 +23,7 @@
             <h2>Liste des looks</h2>
             <form>
                 <select name="look" id="selectLook" onchange="getMatiereData()">
+                    <option>Liste des looks</option>
                     <% for(int i = 0; i < allLooks.size(); i++){ %>
                         <option value="<%= allLooks.get(i).getId()%>"><%= allLooks.get(i).getNom()%></option>
                     <% } %>
@@ -60,7 +61,7 @@
         function updateTable(matiereData) {
             var table = document.getElementById("matiereTable");
             table.innerHTML = ''; // Effacer le contenu actuel de la table
-
+            table.headers = "Matieres";
             for (var i = 0; i < matiereData.length; i++) {
                 var row = table.insertRow(i);
                 var cell = row.insertCell(0);

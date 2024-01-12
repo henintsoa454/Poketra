@@ -67,14 +67,14 @@ public class LookMatiere {
             }
     }
 
-    public static void resetLookMatiere(int idMatiere)throws Exception{
+    public static void resetLookMatiere(int idLook)throws Exception{
             Connection connection = null;
             PreparedStatement preparedStatement = null;
-            String query = "delete from lookMatiere where idMatiere = ?";
+            String query = "delete from lookMatiere where idLook = ?";
             try {
                     connection = ConnectTo.postgreS();
                     preparedStatement = connection.prepareStatement(query);
-                    preparedStatement.setInt(1, idMatiere);
+                    preparedStatement.setInt(1, idLook);
                     preparedStatement.executeUpdate();
             } catch (Exception e) {
                     throw e;

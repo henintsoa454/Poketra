@@ -23,20 +23,20 @@ public class InsertLookMatiere extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try {
-            String selectedMatiereId = request.getParameter("matiere");
-            String[] selectedLookIds = request.getParameterValues("looks");
+            String selectedLookId = request.getParameter("look");
+            String[] selectedMatiereIds = request.getParameterValues("matieres");
 
-            if (selectedMatiereId != null && selectedLookIds != null) {
-                int matiereId = Integer.parseInt(selectedMatiereId);
-                LookMatiere.resetLookMatiere(0);
-                for (String lookId : selectedLookIds) {
-                    int idLook = Integer.parseInt(lookId);
-                    LookMatiere.inserer(idLook, matiereId);
+            if (selectedLookId != null && selectedMatiereIds != null) {
+                int lookId = Integer.parseInt(selectedLookId);
+                LookMatiere.resetLookMatiere(lookId);
+                for (String matiereId : selectedMatiereIds) {
+                    int idMatiere = Integer.parseInt(matiereId);
+                    LookMatiere.inserer(lookId, idMatiere);
                 }
             }
 
             // Redirection vers une page de confirmation ou autre
-            response.sendRedirect("PageDeConfirmation.jsp");
+            response.sendRedirect("index.html");
         } catch (Exception e) {
             e.printStackTrace();
             // Gérer les erreurs éventuelles

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/index.html</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/HistoriqueFabrication.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/ajoutFormuleFabrication.jsp</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/Look.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/FormuleFabrication.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/Type.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/ListeMatierePoketraController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/FabricationPoketra.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/AjoutStockMatiereController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/StockMatiere.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/AjoutFormuleFabricationController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/listeMatiereLook.jsp</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/LookMatiere.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/ListeMatiereJSON.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/ListePoketraJSON.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/Matiere.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/ajoutStockMatiere.jsp</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/insertionElementPoketra.html</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/AjoutFabricationPoketraController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/listeMatierePoketra.jsp</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/view/TypeFabricationPoketraFormuleFabrication.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/ListeLookMatiereController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/model/Taille.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/InsertFormuleFabricationController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/InsertLookMatiere.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/InsertionController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/InsertStockMatiere.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/src/java/controller/ListePoketraIntervalleController.java</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/ajoutLookMatiere.jsp</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/listePoketraPrix.jsp</file>
+            <file>file:/C:/Users/ITU/Documents/GitHub/Test/Poketra/Poketra/web/intervallePrixPoketra.html</file>
+        </group>
+    </open-files>
+</project-private>
